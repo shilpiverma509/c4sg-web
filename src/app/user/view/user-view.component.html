@@ -49,7 +49,7 @@
             {{pad(user.country, "&nbsp;", 3)}}</span>
             </div>
             <div class="email" *ngIf="authService.authenticated() && (authService.isAdmin()|| authService.isOrganization())">
-              Email: <span>{{pad(user.email,"&nbsp;",6)}}</span>
+              Email: <span class="user-email">{{pad(user.email,"&nbsp;",7)}}</span>
             </div>
             <div class="skills-tag-wrapper">
               <ul *ngIf="user.skills">

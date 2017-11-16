@@ -20,7 +20,7 @@
   font-weight: bold;
 }
 
-.location {
+.location,.email {
   line-height: 1.5em;
   //padding-left: 1em;
   font-size: 1em;
@@ -38,6 +38,14 @@
   line-height: 1.5em;
   text-align: center;
   font-size: 1em;
+}
+
+
+.user-email{
+  text-align: left; 
+  line-height: 1.5em;
+  font-size: 1em;
+
 }
 
 #right-col, .sidebar{
